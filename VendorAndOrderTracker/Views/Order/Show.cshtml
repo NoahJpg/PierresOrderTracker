@@ -1,0 +1,26 @@
+@using VendorAndOrderTracker.Models
+@{
+    Layout = "_Layout";
+}
+
+<h1>Pierre's Bakery Vender Orders: </h1>
+
+<a href='/vendors/@Model["vendor"].Id/orders/new'>Add another order</a>
+<br>
+<a href='/vendors'>View all vendors</a>
+
+<hr>
+<div class="orderDetails">
+
+    <h3>Item: <em>@Model["order"].Title</em></h3>
+    <p>Description: @Model["order"].Description</p>
+    <p>Price: $@Model["order"].Price</p>
+    <p>Delivery Date: @Model["order"].Date</p>
+    <p>Vendor: @Model["vendor"].Name</p>
+    <hr>
+
+</div>
+<br>
+<a href='/vendors/@Model["vendor"].Id/orders/new'>Add another order</a>
+<br>
+<a href='/vendors'>View all vendors</a>
