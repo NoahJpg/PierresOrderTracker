@@ -18,8 +18,7 @@
 
 ## Description
 
-_This application will prompt the user to enter if they'd like to add Bread or Pastry to Cart then how many to add to Cart. It will then give the prompt an option to add more as a yes or no._
-_If the user is done adding items to the cart, the program will display their cart and a Cart Total._
+_This application will track vendors and orders for a bakery._
 
 
 ## Technologies Used
