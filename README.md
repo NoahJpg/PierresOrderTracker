@@ -1,8 +1,26 @@
-# _Project Name_
+<h1 align="center">Bakery Order Tracker</h1>
+  <p align="center">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" />
+  </p>
+  
+  <p align="center">
+    <a href="#description">Description</a> •
+    <a href="#technologies-used">Technologies Used</a> •
+    <a href="#Setup-and-Installation-Requirements">Setup</a> •
+    <a href="#known-bugs">Known Bugs</a> •
+    <a href="#license">License</a>
+    
+  </p>
+
 
 #### By _**Noah Atkinson**_
 
-#### _Description_
+## Description
+
+_This application will prompt the user to enter if they'd like to add Bread or Pastry to Cart then how many to add to Cart. It will then give the prompt an option to add more as a yes or no._
+_If the user is done adding items to the cart, the program will display their cart and a Cart Total._
+
 
 ## Technologies Used
 
@@ -11,12 +29,8 @@
 * _MSTest_
 * _ASP.NET Core 6 MVC_
 
-## Description
 
-_This application will prompt the user to enter if they'd like to add Bread or Pastry to Cart then how many to add to Cart. It will then give the prompt an option to add more as a yes or no._
-_If the user is done adding items to the cart, the program will display their cart and a Cart Total._
-
-## Setup/Installation Requirements
+## Setup and Installation Requirements
 
 * _Install .Net 6 SDK:_
 * [OS X and Windows Instructions](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)
